@@ -1,0 +1,65 @@
+#banner {
+    background-image: url("http://cse.buet.ac.bd/images/menuback2.gif");
+    background-repeat: repeat;
+}
+
+#banner img {
+    width: 100px;
+    margin: 5px;
+    display: inline;
+}
+
+body {
+  color:#828282;
+  background-color:#eee;
+}
+
+a,a:hover {
+    color:#ff3333;
+    text-decoration:none;
+}
+
+.blog-masthead {
+    color:#ffffff;
+    border:0;
+    border-radius:0;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;	
+}
+.blog-nav li a {
+    /*color: #fff;*/
+}
+
+/*
+.blog-nav > li > a {
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    border-left:1px solid #ee3333;
+}
+
+.blog-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color:#666666;
+}
+
+.blog-nav > li:last-child > a {
+    border-right:1px solid #ee3333;
+}
+.blog-nav > .active > a, .blog-nav > .active > a:hover, .blog-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.blog-nav > .open > a, .blog-nav > .open > a:hover, .blog-nav > .open > a:focus {
+    color: #f0f0f0;
+    background-color:transparent;
+    opacity:.9;
+    border-color:#ff3333;
+}
+*/
