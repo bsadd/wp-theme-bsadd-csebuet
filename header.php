@@ -19,10 +19,10 @@
         <div id="banner" class="row">
             <div class="col-xs-12">
                 <span>
-                    <img src="<?= bloginfo( 'template_directory' ) ?>/img/buet_logo_300.png" />
-                    <h1> <a href="<?= bloginfo( 'wpurl' );?>"><?= get_bloginfo( 'name' ); ?></a> </h1>
+                    <img class="d-inline" src="<?= bloginfo( 'template_directory' ) ?>/img/buet_logo_300.png" />
+                    <h1 class="d-inline"> Department of CSE, BUET </h1>
                 </span>
-                <span> <h2 style="color: #DDDDDD;"> <?= get_bloginfo( 'description' ); ?> </h2> </span>
+                <span> <h2> <a href="<?= bloginfo( 'wpurl' );?>"><?= get_bloginfo( 'description' ); ?></a> </h2> </span>
             </div>
         </div>
         <div class="row">
