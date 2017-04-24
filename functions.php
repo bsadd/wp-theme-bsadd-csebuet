@@ -47,19 +47,26 @@ function theme_settings_page() { ?>
     </div>
 <?php }
 
-// Next BSADD Event
-function setting_next_bsadd_event() { ?>
-  <input type="text" name="next_bsadd_event" id="next_bsadd_event" value="<?php echo get_option( 'next_bsadd_event' ); ?>" />
-<?php }
-
 // Theme settings page setup
 function theme_settings_page_setup() {
   add_settings_section( 'section', 'All Settings', null, 'theme-options' );
 
-  add_settings_field( 'next_bsadd_event', 'Next BSADD Event URL', 'setting_next_bsadd_event', 'theme-options', 'section' );
+  add_settings_field( 'next_bsadd_event', 'Upcoming event URL', 'setting_next_bsadd_event', 'theme-options', 'section' );
   register_setting('section', 'next_bsadd_event');
+
+  add_settings_field( 'google_analytics_id', 'Google analytics id', 'setting_google_analytics_id', 'theme-options', 'section' );
+  register_setting('section', 'google_analytics_id');
 }
 add_action( 'admin_init', 'theme_settings_page_setup' );
+
+function setting_next_bsadd_event() { ?>
+  <input type="text" name="next_bsadd_event" id="next_bsadd_event" value="<?php echo get_option( 'next_bsadd_event' ); ?>" />
+<?php }
+
+function setting_google_analytics_id() { ?>
+  <input type="text" name="google_analytics_id" id="google_analytics_id" value="<?php echo get_option( 'google_analytics_id' ); ?>" />
+<?php }
+
 
 // Support Featured Images
 add_theme_support( 'post-thumbnails' );
