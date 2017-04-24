@@ -72,4 +72,13 @@ function setting_google_analytics_id() { ?>
 add_theme_support( 'post-thumbnails' );
 
 
-
+//Navigation Menu
+function register_my_menu() {
+    register_nav_menus(
+        array(
+            'header-nav-menu' => __( 'Header Navigation Menu' ),
+            'extra-menu' => __( 'Extra Menu' )
+        )
+    );
+}
+add_action( 'init', 'register_my_menu' );
