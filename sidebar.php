@@ -17,4 +17,14 @@
             <li><a href="#">Facebook</a></li>
         </ol>
     </div>
+
+<?php if ( has_nav_menu( 'sidebar-nav-menu' ) ) { ?>
+    <div class="sidebar-module">
+        <h4>Menu</h4>
+        <div class="sidebar-nav-menu">
+            <?php wp_nav_menu( array('theme_location' => 'sidebar-nav-menu', 'container' => '' ) );?>
+        </div>
+    </div>
+<?php } ?>
+
 </div><!-- /.blog-sidebar -->

@@ -39,6 +39,8 @@ a,a:hover {
     text-decoration:none;
 }
 
+/* Header navigation Menu */
+
 .main-nav {
     color:#ffffff;
     border:0;
@@ -68,5 +70,29 @@ a,a:hover {
 
 .main-nav li.current-menu-item a {
     background-color:#eeeeee;
+}
+
+
+/* Sidebar Navigation Menu */
+
+.sidebar-nav-menu ul {
+    position: relative;
+    padding-left: 0px;
+}
+
+.sidebar-nav-menu li {
+    list-style-type: none;
+}
+
+.sidebar-nav-menu li li{
+    padding-left: 20px;
+}
+
+.sidebar-nav-menu li  a:hover, .sidebar-nav-menu  li  a:focus {
+    background-color:#fff;
+}
+
+.sidebar-nav-menu li.current-menu-item a {
+    background-color:#fff;
 }
 

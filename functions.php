@@ -78,7 +78,7 @@ function register_my_menu() {
     register_nav_menus(
         array(
             'header-nav-menu' => __( 'Header Navigation Menu' ),
-            'extra-menu' => __( 'Extra Menu' )
+            'sidebar-nav-menu' => __( 'Sidebar Navigation Menu' )
         )
     );
 }

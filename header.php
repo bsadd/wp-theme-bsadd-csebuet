@@ -38,6 +38,8 @@
                 <span> <h2> <a href="<?= bloginfo( 'wpurl' );?>"><?= get_bloginfo( 'description' ); ?></a> </h2> </span>
             </div>
         </div>
+
+<?php if ( has_nav_menu( 'header-nav-menu' ) ) { ?>
         <div class="row">
             <div class="col-xs-12 main-nav">
                 <?php
@@ -49,3 +51,4 @@
                 ?>
             </div>
         </div>
+<?php } ?>
