@@ -1,9 +1,11 @@
-        </div> <!-- /.container -->
 
-        <footer class="blog-footer">
-            <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            <p><a href="#">Back to top</a></p>
-        </footer>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <p class="small"> Theme by <a href="http://ihhira.com">Md Imran Hasan Hira</a> | Copyright 2017 @ BSADD | Powered by WordPress </p>
+                </div>
+            </div>
+
+        </div> <!-- /.container -->
 
         <?php wp_footer(); ?> 
     </body>
