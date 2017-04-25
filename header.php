@@ -40,8 +40,12 @@
         </div>
         <div class="row">
             <div class="col-xs-12 main-nav">
-                <div class="nav nav-pills">
-                    <?php wp_nav_menu( array( 'theme_location' => 'header-nav-menu' ) ); ?>
-                </div>
+                <?php
+                wp_nav_menu( array(
+                    'theme_location' => 'header-nav-menu',
+                    'container' => '',
+                    'depth' => 1.
+                 ) );
+                ?>
             </div>
         </div>
