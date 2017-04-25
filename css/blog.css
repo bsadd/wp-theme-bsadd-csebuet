@@ -13,8 +13,8 @@
     display: inline;
 }
 
-#banner h2 , #banner h2 a{
-    color: #DDDDDD;
+#banner , #banner a{
+    color: #ffffff;
 }
 
 #banner img.buet-logo{
