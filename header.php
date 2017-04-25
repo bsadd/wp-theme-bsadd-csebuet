@@ -39,10 +39,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 blog-masthead">
-                <nav class="blog-nav">
-                    <li><a class="blog-nav-item active" href="<?= bloginfo( 'wpurl' );?>">Home</a></li>
-                    <?php wp_list_pages( '&title_li=' ); ?>
-                </nav>
+            <div class="col-xs-12 main-nav">
+                <div class="nav nav-pills">
+                    <?php wp_nav_menu( array( 'theme_location' => 'header-nav-menu' ) ); ?>
+                </div>
             </div>
         </div>
