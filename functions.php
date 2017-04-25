@@ -83,3 +83,19 @@ function register_my_menu() {
     );
 }
 add_action( 'init', 'register_my_menu' );
+
+
+
+//Widget
+function sidebar_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'Sidebar Widget',
+        'id'            => 'sidebar_widget',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>',
+    ) );
+
+}
+add_action( 'widgets_init', 'sidebar_widgets_init' );
