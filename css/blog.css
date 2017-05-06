@@ -5,6 +5,10 @@
     min-height: 500px;
 }
 
+.footer-row{
+    margin: 20px 0px;
+}
+
 
 /* Banner */
 #banner {
@@ -74,7 +78,7 @@ a,a:hover {
 }
 
 .main-nav li.current-menu-item a {
-    background-color:#eeeeee;
+    text-decoration: underline;
 }
 
 
