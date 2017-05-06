@@ -5,7 +5,6 @@
     } ?>
 
     <?php the_content(); ?>
-    <hr>
 
 <!-- the rest of the content -->
 

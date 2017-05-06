@@ -1,4 +1,9 @@
-
+.blog-main{
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 500px;
+}
 
 
 /* Banner */
